@@ -1,0 +1,42 @@
+# Placeholder model for azulejo-retangular-vertical-com-suporte
+# Actual model to be provided later
+o print
+v 0 0 0
+v 1 0 0
+v 1 1.5 0
+v 0 1.5 0
+vt 0 0
+vt 1 0
+vt 1 1
+vt 0 1
+vn 0 0 1
+f 1/1/1 2/2/1 3/3/1
+f 1/1/1 3/3/1 4/4/1
+o support
+v 0.2 0 -0.5
+v 0.8 0 -0.5
+v 0.8 1.5 -0.5
+v 0.2 1.5 -0.5
+vt 0 0
+vt 1 0
+vt 1 1
+vt 0 1
+vn 0 0 1
+f 5/1/1 6/2/1 7/3/1
+f 5/1/1 7/3/1 8/4/1
+o base
+v 0 0 -0.6
+v 1 0 -0.6
+v 1 1.5 -0.6
+v 0 1.5 -0.6
+vn 0 0 -1
+f 9/1/2 10/2/2 11/3/2
+f 9/1/2 11/3/2 12/4/2
+o body
+v 0 0 -0.1
+v 1 0 -0.1
+v 1 1.5 -0.1
+v 0 1.5 -0.1
+vn 0 0 -1
+f 13/1/2 14/2/2 15/3/2
+f 13/1/2 15/3/2 16/4/2
