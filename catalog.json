@@ -1,0 +1,4942 @@
+{
+  "generatedFrom": "rapidmockup alpha bundle (app.js) — extracted constants",
+  "materials": {
+    "pbrMaterial": {
+      "metallic": 0.1,
+      "roughness": 0.15,
+      "envIntensity": 0.77,
+      "specularIntensity": 0.05,
+      "alpha": 1
+    },
+    "decal": {
+      "alpha": 0.5,
+      "alphaFromDiffuseTexture": true,
+      "clampTexture": true,
+      "emissiveFactor": 0.85
+    },
+    "translucent_decal": {
+      "emissiveFactor": 0.77,
+      "isDecal": true
+    },
+    "cloth": {
+      "metallic": 0,
+      "roughness": 1,
+      "envIntensity": 0.84,
+      "specularIntensity": 0
+    },
+    "paper": {
+      "metallic": 0,
+      "roughness": 0.9,
+      "envIntensity": 1.2,
+      "specularIntensity": 0.025
+    },
+    "mirror": {
+      "metallic": 1,
+      "roughness": 0,
+      "envIntensity": 0.4
+    },
+    "chrome": {
+      "metallic": 0.9,
+      "roughness": 0.15,
+      "envIntensity": 0.8
+    },
+    "plastic": {
+      "metallic": 0,
+      "roughness": 0.2,
+      "envIntensity": 0.8
+    },
+    "silicone": {
+      "metallic": 0,
+      "roughness": 0.6,
+      "envIntensity": 0.9,
+      "specularIntensity": 0.025
+    },
+    "aluminum": {
+      "metallic": 0.9,
+      "roughness": 0.2,
+      "envIntensity": 0.9
+    },
+    "porcelain": {
+      "metallic": 0,
+      "roughness": 0,
+      "envIntensity": 0.8
+    },
+    "dark_cloth": {
+      "metallic": 0,
+      "roughness": 1,
+      "envIntensity": 0.3
+    },
+    "brighter_plastic": {
+      "metallic": 0,
+      "roughness": 0.2,
+      "envIntensity": 0.83
+    },
+    "brighter_plastic2": {
+      "metallic": 0,
+      "roughness": 0.2,
+      "envIntensity": 1.1
+    },
+    "transparent_glass": {
+      "metallic": 0.4,
+      "roughness": 0.162,
+      "envIntensity": 1.05,
+      "alpha": 0.45,
+      "withRefraction": true,
+      "refractionIndex": 0.1
+    },
+    "transparent_glass2": {
+      "metallic": 0.4,
+      "roughness": 0.159,
+      "envIntensity": 0.225,
+      "alpha": 0.25,
+      "withRefraction": true,
+      "refractionIndex": 0.1
+    },
+    "transparent_glass3": {
+      "metallic": 0.3,
+      "roughness": 0.7,
+      "envIntensity": 0.85,
+      "alpha": 0.25,
+      "withRefraction": true,
+      "refractionIndex": 0.005
+    },
+    "transparent_glass4": {
+      "metallic": 0.4,
+      "roughness": 0.197,
+      "envIntensity": 0.72,
+      "alpha": 0.122,
+      "withRefraction": true,
+      "refractionIndex": 0.1
+    },
+    "transparent_plastic": {
+      "metallic": 0.1,
+      "roughness": 0.3,
+      "envIntensity": 0.7,
+      "alpha": 0.45
+    },
+    "reflective_plastic": {
+      "metallic": 0,
+      "roughness": 0.1,
+      "envIntensity": 0.7
+    },
+    "reflective_cloth": {
+      "metallic": 0.3,
+      "roughness": 1,
+      "envIntensity": 1
+    },
+    "etched_glass": {
+      "metallic": 0.4,
+      "roughness": 0.3,
+      "envIntensity": 1.05,
+      "alpha": 0.77,
+      "withRefraction": false,
+      "refractionIndex": 0.1
+    },
+    "satin": {
+      "metallic": 0.42,
+      "roughness": 0.471,
+      "envIntensity": 0.83,
+      "specularIntensity": 0.025
+    },
+    "glitter": {
+      "metallic": 1.1,
+      "roughness": 0.7,
+      "envIntensity": 2
+    },
+    "matte_plastic": {
+      "metallic": 0,
+      "roughness": 0.3,
+      "envIntensity": 1.1
+    },
+    "polyester": {
+      "metallic": 0.6,
+      "roughness": 1,
+      "envIntensity": 1
+    },
+    "matte_aluminum": {
+      "metallic": 0.9,
+      "roughness": 0.425,
+      "envIntensity": 0.55
+    },
+    "wood": {
+      "metallic": 0,
+      "roughness": 0.9,
+      "envIntensity": 0.75,
+      "specularIntensity": 0.025
+    },
+    "varnished_wood": {
+      "metallic": 0,
+      "roughness": 0.07,
+      "envIntensity": 0.75,
+      "specularIntensity": 0.025
+    },
+    "gold": {
+      "metallic": 0.9,
+      "roughness": 0.2,
+      "envIntensity": 1.3,
+      "albedoColor": [
+        1,
+        0.8,
+        0.4
+      ]
+    },
+    "stainless_steel": {
+      "metallic": 0.9,
+      "roughness": 0.25,
+      "envIntensity": 1
+    },
+    "better_decal": {
+      "alpha": 0.5,
+      "alphaFromDiffuseTexture": true,
+      "clampTexture": true,
+      "emissiveFactor": 0.85
+    }
+  },
+  "skyboxes": [
+    "photostudio",
+    "lebombo",
+    "autumn",
+    "spruit",
+    "veranda",
+    "entrance",
+    "wooden",
+    "lythwood",
+    "hotel",
+    "bologni",
+    "venice"
+  ],
+  "backgrounds": [
+    {
+      "id": "fundo",
+      "file": "backgrounds/fundo.jpg",
+      "name": "fundo.jpg"
+    }
+  ],
+  "watermarks": [
+    {
+      "id": "marca-dagua",
+      "file": "watermarks/marca-dagua.png",
+      "name": "marca-dagua.png"
+    }
+  ],
+  "scene": {
+    "camera": {
+      "alpha": 1.5707963267948966,
+      "beta": 1.2566370614359172,
+      "radius": 140,
+      "fov": 0.6,
+      "lowerRadius": 50,
+      "upperRadius": 300
+    },
+    "dirLight": {
+      "direction": [
+        0.25,
+        -5,
+        -0.25
+      ],
+      "intensity": 3,
+      "shadowMinZ": -100
+    },
+    "legacyDirLight": {
+      "direction": [
+        -4,
+        -5,
+        -1
+      ],
+      "position": [
+        20,
+        30,
+        20
+      ],
+      "intensity": 2.5
+    },
+    "hemi": {
+      "dir": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          -1
+        ]
+      ],
+      "groundColor": [
+        0.47,
+        0.47,
+        0.47
+      ],
+      "defaultIntensity": 0.5
+    },
+    "shadow": {
+      "mapSize": 128,
+      "blurExponential": true,
+      "transparencyShadow": true,
+      "softTransparent": true
+    },
+    "woodPlank": {
+      "texture": "textures/wood8.jpg",
+      "environmentIntensity": 0.5,
+      "specularIntensity": 0.001,
+      "roughness": 0.9,
+      "metallic": 0
+    },
+    "reflectivityTexture": "textures/reflectivity.png"
+  },
+  "templates": [
+    {
+      "name": "acrylic_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "acrylic_mug",
+      "plankAltitude": -20.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "acrylic_mug",
+        "hasMtl": false,
+        "seeBackFaces": true,
+        "baseMaterial": "porcelain",
+        "meshMaterials": {
+          "external_print": "decal"
+        },
+        "meshNames": [
+          "mug",
+          "print",
+          "external_print"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 270,
+              "height": 150
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "acrylic_mug2",
+      "category": "mugs",
+      "pro": false,
+      "object": "acrylic_mug2",
+      "plankAltitude": -24,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "acrylic_mug2",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshMaterials": {
+          "acrylic": "transparent_glass4",
+          "handle": "transparent_glass4",
+          "handle2": "transparent_glass4"
+        },
+        "meshNames": [
+          "acrylic",
+          "print",
+          "inside",
+          "handle",
+          "handle2"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 298,
+              "height": 105
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "print",
+          "inside"
+        ]
+      }
+    },
+    {
+      "name": "acrylic_mug_transparent",
+      "category": "mugs",
+      "pro": false,
+      "object": "acrylic_mug",
+      "plankAltitude": -20.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "acrylic_mug",
+        "hasMtl": false,
+        "seeBackFaces": true,
+        "baseMaterial": "transparent_plastic",
+        "meshMaterials": {
+          "external_print": "decal"
+        },
+        "meshNames": [
+          "mug",
+          "print",
+          "external_print"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 270,
+              "height": 150
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "external_print"
+            ],
+            "transparentBackground": true
+          }
+        },
+        "colorMeshNames": [
+          "others"
+        ],
+        "defaultColors": {
+          "mug": "#000000",
+          "print": "#000000"
+        }
+      }
+    },
+    {
+      "name": "aluminum_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "aluminum_mug",
+      "plankAltitude": -31,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "aluminum_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "aluminum",
+        "meshMaterials": {
+          "decal": "decal"
+        },
+        "meshNames": [
+          "mug",
+          "print",
+          "decal"
+        ],
+        "printNames": [
+          "frontal",
+          "decal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 204,
+              "height": 76
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "enableColorBlend": true
+          },
+          "decal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "decal"
+            ],
+            "transparentBackground": true,
+            "disableMagicInk": true
+          }
+        },
+        "colorMeshNames": [
+          "mug",
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "aluminum_mug2",
+      "category": "mugs",
+      "pro": false,
+      "object": "aluminum_mug2",
+      "plankAltitude": -26,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "aluminum_mug2",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "aluminum",
+        "meshNames": [
+          "handle",
+          "body",
+          "screws",
+          "print"
+        ],
+        "meshGroups": {
+          "mug": [
+            "handle",
+            "body",
+            "screws"
+          ]
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 234,
+              "height": 75
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "enableColorBlend": true
+          }
+        },
+        "colorMeshNames": [
+          "mug",
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "aluminum_mug_400ml",
+      "category": "mugs",
+      "pro": false,
+      "object": "aluminum_mug_400ml",
+      "plankAltitude": -20.5,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "aluminum_mug_400ml",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "aluminum",
+        "meshNames": [
+          "other",
+          "print",
+          "handle",
+          "screws"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 190,
+              "height": 62
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "enableColorBlend": true
+          }
+        },
+        "colorMeshNames": [
+          "print",
+          "handle",
+          "screws",
+          "others"
+        ],
+        "scale": {
+          "x": 380,
+          "y": 380,
+          "z": 380
+        },
+        "position": {
+          "y": -20
+        }
+      }
+    },
+    {
+      "name": "belly_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "belly_mug",
+      "plankAltitude": 0,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "belly_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshMaterials": {},
+        "meshGroups": {},
+        "meshNames": [
+          "print",
+          "spoon",
+          "inside",
+          "handle"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 376,
+              "height": 125
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "print",
+          "spoon",
+          "inside",
+          "handle"
+        ],
+        "defaultColors": {},
+        "camouflageMeshNames": [],
+        "hiddenMeshes": [],
+        "inverseVisibilityMeshNames": {},
+        "modifiableMaterials": {},
+        "scale": {
+          "x": 230,
+          "y": 230,
+          "z": 230
+        },
+        "position": {
+          "y": -19
+        },
+        "rotation": {
+          "y": 0.4
+        }
+      }
+    },
+    {
+      "name": "carabiner_mug_200ml",
+      "category": "mugs",
+      "pro": false,
+      "object": "carabiner_mug_200ml",
+      "plankAltitude": -20,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "carabiner_mug_200ml",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "aluminum",
+        "meshNames": [
+          "bottom",
+          "handle",
+          "handle_detail",
+          "handle_detail_buttons",
+          "print",
+          "internal",
+          "top_border"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 219,
+              "height": 80
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "print",
+          "internal",
+          "handle",
+          "handle_detail",
+          "handle_detail_buttons",
+          "top_border",
+          "bottom"
+        ],
+        "modifiableMaterials": {
+          "print": [
+            "aluminum",
+            "porcelain"
+          ]
+        }
+      }
+    },
+    {
+      "name": "carabiner_mug_300ml",
+      "category": "mugs",
+      "pro": false,
+      "object": "carabiner_mug_300ml",
+      "plankAltitude": -20,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "carabiner_mug_300ml",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "aluminum",
+        "meshNames": [
+          "bottom",
+          "handle",
+          "handle_detail",
+          "handle_detail_buttons",
+          "print",
+          "internal",
+          "top_border"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 235,
+              "height": 90
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "print",
+          "internal",
+          "handle",
+          "handle_detail",
+          "handle_detail_buttons",
+          "top_border",
+          "bottom"
+        ],
+        "modifiableMaterials": {
+          "print": [
+            "aluminum",
+            "porcelain"
+          ]
+        }
+      }
+    },
+    {
+      "name": "carabiner_mug_400ml",
+      "category": "mugs",
+      "pro": false,
+      "object": "carabiner_mug_400ml",
+      "plankAltitude": -20,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "carabiner_mug_400ml",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "aluminum",
+        "meshGroups": {
+          "handle_detail_buttons": [
+            "handle_detail_button_001",
+            "handle_detail_button_002"
+          ]
+        },
+        "meshNames": [
+          "bottom",
+          "handle",
+          "handle_detail",
+          "handle_detail_button_001",
+          "handle_detail_button_002",
+          "print",
+          "internal",
+          "top_border"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 251,
+              "height": 100
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "print",
+          "internal",
+          "handle",
+          "handle_detail",
+          "handle_detail_buttons",
+          "top_border",
+          "bottom"
+        ],
+        "modifiableMaterials": {
+          "print": [
+            "aluminum",
+            "porcelain"
+          ]
+        }
+      }
+    },
+    {
+      "name": "chopp_mug",
+      "category": "chopp_mugs",
+      "pro": true,
+      "object": "chopp_mug",
+      "plankAltitude": -26,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "chopp_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "transparent_glass",
+        "meshMaterials": {
+          "print": "decal",
+          "handle_print": "decal"
+        },
+        "meshNames": [
+          "mug",
+          "inside",
+          "handle",
+          "print",
+          "handle_print"
+        ],
+        "alphaIndex": {
+          "handle": 4,
+          "handle_print": 5,
+          "inside": 2,
+          "mug": 4
+        },
+        "printNames": [
+          "frontal",
+          "handle_print"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 250,
+              "height": 175
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          },
+          "handle_print": {
+            "size": {
+              "width": 70,
+              "height": 175
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "handle_print"
+            ],
+            "transparentBackground": true
+          }
+        },
+        "colorMeshNames": [
+          "mug",
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "chopp_mug2",
+      "category": "chopp_mugs",
+      "pro": false,
+      "object": "chopp_mug2",
+      "plankAltitude": -26.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "chopp_mug2",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "transparent_glass",
+        "meshMaterials": {
+          "print": "decal"
+        },
+        "meshNames": [
+          "mug",
+          "inside",
+          "handle",
+          "print"
+        ],
+        "alphaIndex": {
+          "handle": 4,
+          "inside": 2,
+          "mug": 4
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 240,
+              "height": 90
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          }
+        },
+        "colorMeshNames": [
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "chopp_mug2_etched",
+      "category": "chopp_mugs",
+      "pro": false,
+      "object": "chopp_mug2",
+      "plankAltitude": -26.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "chopp_mug2",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "etched_glass",
+        "meshMaterials": {
+          "print": "decal"
+        },
+        "meshNames": [
+          "mug",
+          "inside",
+          "handle",
+          "print"
+        ],
+        "alphaIndex": {
+          "handle": 4,
+          "inside": 2,
+          "mug": 4
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 240,
+              "height": 90
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          }
+        },
+        "colorMeshNames": [
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "chopp_mug3_etched",
+      "category": "chopp_mugs",
+      "pro": false,
+      "object": "chopp_mug3_etched",
+      "plankAltitude": -18,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "chopp_mug3_etched",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "etched_glass",
+        "meshMaterials": {
+          "print": "decal"
+        },
+        "alphaIndex": {
+          "handle": 4,
+          "inside": 2,
+          "bottom": 3,
+          "body": 4
+        },
+        "meshNames": [
+          "bottom",
+          "body",
+          "inside",
+          "handle",
+          "print"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 376,
+              "height": 200
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          }
+        },
+        "colorMeshNames": [
+          "bottom",
+          "body",
+          "inside",
+          "handle",
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "chopp_mug_etched",
+      "category": "chopp_mugs",
+      "pro": true,
+      "object": "chopp_mug",
+      "plankAltitude": -26,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "chopp_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "etched_glass",
+        "meshMaterials": {
+          "print": "decal",
+          "handle_print": "decal"
+        },
+        "meshNames": [
+          "mug",
+          "inside",
+          "handle",
+          "print",
+          "handle_print"
+        ],
+        "alphaIndex": {
+          "handle": 4,
+          "handle_print": 5,
+          "inside": 2,
+          "mug": 4
+        },
+        "printNames": [
+          "frontal",
+          "handle_print"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 250,
+              "height": 175
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          },
+          "handle_print": {
+            "size": {
+              "width": 70,
+              "height": 175
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "handle_print"
+            ],
+            "transparentBackground": true
+          }
+        },
+        "colorMeshNames": [
+          "mug",
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "chrome_mug",
+      "category": "mugs",
+      "pro": true,
+      "object": "mug",
+      "plankAltitude": -20,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom"
+        ],
+        "baseMaterial": "chrome",
+        "meshMaterials": {
+          "decal": "decal",
+          "inside": "porcelain"
+        },
+        "meshNames": [
+          "inside",
+          "print",
+          "decal",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "frontal",
+          "decal",
+          "bottom"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          },
+          "decal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "decal"
+            ],
+            "transparentBackground": true,
+            "disableMagicInk": true
+          },
+          "bottom": {
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "bottom"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "bottom",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "chromed_handle_and_border_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "chromed_handle_and_border_mug",
+      "plankAltitude": -20,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "chromed_handle_and_border_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshMaterials": {
+          "handle": "chrome",
+          "top_border": "chrome"
+        },
+        "meshNames": [
+          "inside",
+          "print",
+          "top_border",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "frontal",
+          "handle"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 258,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          },
+          "handle": {
+            "size": {
+              "width": 42,
+              "height": 101
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "handle"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "top_border",
+          "inside",
+          "print",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "conical_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "conical_mug",
+      "plankAltitude": -22,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "conical_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 1024,
+              "height": 457
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "background": "map.png"
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "conical_mug_with_chrome_handle",
+      "category": "mugs",
+      "pro": false,
+      "object": "conical_mug_with_chrome_handle",
+      "plankAltitude": 0,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "conical_mug_with_chrome_handle",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshMaterials": {
+          "handle": "chrome"
+        },
+        "meshGroups": {},
+        "meshNames": [
+          "other",
+          "print",
+          "handle",
+          "inside"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 251,
+              "height": 126
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "print",
+          "handle",
+          "inside",
+          "other"
+        ],
+        "defaultColors": {},
+        "camouflageMeshNames": [],
+        "hiddenMeshes": [],
+        "inverseVisibilityMeshNames": {},
+        "modifiableMaterials": {},
+        "scale": {
+          "x": 340,
+          "y": 340,
+          "z": 340
+        },
+        "position": {
+          "y": -19.2,
+          "x": -3
+        },
+        "rotation": {}
+      }
+    },
+    {
+      "name": "enamel_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "enamel_mug",
+      "plankAltitude": -20.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "enamel_mug",
+        "hasMtl": false,
+        "seeBackFaces": true,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "bottom",
+          "print",
+          "inside",
+          "top_edge",
+          "handle"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 238,
+              "height": 69
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "defaultColors": {
+          "top_edge": "#000"
+        },
+        "colorMeshNames": [
+          "bottom",
+          "print",
+          "handle",
+          "inside",
+          "top_edge"
+        ]
+      }
+    },
+    {
+      "name": "enamel_mug_with_chrome_edge",
+      "category": "mugs",
+      "pro": false,
+      "object": "enamel_mug",
+      "plankAltitude": -20.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "enamel_mug",
+        "hasMtl": false,
+        "seeBackFaces": true,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "bottom",
+          "print",
+          "inside",
+          "top_edge",
+          "handle"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 238,
+              "height": 69
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "defaultColors": {
+          "top_edge": "#000"
+        },
+        "colorMeshNames": [
+          "bottom",
+          "print",
+          "handle",
+          "inside",
+          "top_edge"
+        ],
+        "meshMaterials": {
+          "top_edge": "chrome"
+        }
+      }
+    },
+    {
+      "name": "glass_chopp_mug",
+      "category": "chopp_mugs",
+      "pro": true,
+      "object": "glass_chopp_mug",
+      "plankAltitude": -23,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "glass_chopp_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "transparent_glass",
+        "meshMaterials": {
+          "print": "decal"
+        },
+        "meshGroups": {
+          "mug": [
+            "body",
+            "body_print",
+            "body_detail",
+            "edges",
+            "body_inside",
+            "body_bottom",
+            "body_inside_bottom"
+          ],
+          "all_mug": [
+            "body",
+            "body_detail",
+            "edges",
+            "body_print",
+            "handle",
+            "body_inside",
+            "body_bottom",
+            "bottom"
+          ]
+        },
+        "meshNames": [
+          "body",
+          "body_detail",
+          "edges",
+          "body_print",
+          "body_bottom",
+          "bottom",
+          "handle",
+          "print",
+          "body_inside_bottom",
+          "body_inside"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 251,
+              "height": 65
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "invertX": true,
+            "transparentBackground": true
+          }
+        },
+        "colorMeshNames": [
+          "mug",
+          "handle"
+        ],
+        "modifiableMaterials": {
+          "all_mug": [
+            "transparent_glass",
+            "etched_glass"
+          ]
+        }
+      }
+    },
+    {
+      "name": "glitter_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "glitter_mug",
+      "plankAltitude": -20,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [
+        "glitter"
+      ],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "glitter_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "outside"
+        ],
+        "meshMaterials": {
+          "outside": "glitter",
+          "print": "translucent_decal"
+        },
+        "printNames": [
+          "frontal",
+          "glitter"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 258,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true,
+            "opacity": 0.8
+          },
+          "glitter": {
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "outside"
+            ],
+            "effects": [
+              "glitter"
+            ],
+            "hideEditor": true
+          }
+        },
+        "colorMeshNames": [
+          "inside"
+        ]
+      }
+    },
+    {
+      "name": "gradient_chopp_mug",
+      "category": "chopp_mugs",
+      "pro": false,
+      "object": "gradient_chopp_mug",
+      "plankAltitude": -18,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "gradient_chopp_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshMaterials": {
+          "print": "decal"
+        },
+        "meshGroups": {
+          "allMug": [
+            "body",
+            "handle",
+            "bottom",
+            "inside"
+          ]
+        },
+        "meshNames": [
+          "bottom",
+          "body",
+          "inside",
+          "handle"
+        ],
+        "printNames": [
+          "frontal",
+          "gradient"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 376,
+              "height": 200
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          },
+          "gradient": {
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "allMug"
+            ],
+            "effects": [
+              "gradient"
+            ]
+          }
+        },
+        "colorMeshNames": []
+      }
+    },
+    {
+      "name": "gradient_chopp_mug2",
+      "category": "chopp_mugs",
+      "pro": true,
+      "object": "gradient_chopp_mug2",
+      "plankAltitude": -26,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "gradient_chopp_mug2",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "etched_glass",
+        "meshMaterials": {
+          "print": "decal",
+          "handle_print": "decal"
+        },
+        "meshGroups": {
+          "allMug": [
+            "mug",
+            "handle",
+            "inside",
+            "inside_bottom",
+            "bottom"
+          ]
+        },
+        "meshNames": [
+          "mug",
+          "inside",
+          "handle",
+          "print",
+          "handle_print",
+          "bottom",
+          "inside_bottom"
+        ],
+        "alphaIndex": {
+          "handle": 4,
+          "handle_print": 5,
+          "inside": 2,
+          "inside_bottom": 2,
+          "bottom": 2,
+          "mug": 4,
+          "print": 5
+        },
+        "printNames": [
+          "frontal",
+          "handle_print",
+          "gradient"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 250,
+              "height": 175
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          },
+          "handle_print": {
+            "size": {
+              "width": 70,
+              "height": 175
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "handle_print"
+            ],
+            "transparentBackground": true
+          },
+          "gradient": {
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "allMug"
+            ],
+            "effects": [
+              "gradient"
+            ]
+          }
+        },
+        "colorMeshNames": []
+      }
+    },
+    {
+      "name": "guedes_aluminum_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "guedes_aluminum_mug",
+      "plankAltitude": -23,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "guedes_aluminum_mug",
+        "hasMtl": false,
+        "seeBackFaces": true,
+        "baseMaterial": "enameled_aluminum",
+        "meshGroups": {
+          "mug": [
+            "bottom",
+            "handle",
+            "inside",
+            "top_border",
+            "print",
+            "joints"
+          ],
+          "border_and_inside": [
+            "top_border",
+            "inside"
+          ],
+          "body": [
+            "print",
+            "bottom"
+          ]
+        },
+        "meshNames": [
+          "bottom",
+          "handle",
+          "inside",
+          "print",
+          "top_border",
+          "joints"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 296,
+              "height": 118
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "border_and_inside",
+          "handle",
+          "body"
+        ],
+        "modifiableMaterials": {
+          "mug": [
+            "enameled_aluminum",
+            "aluminum",
+            "porcelain",
+            "brighter_plastic"
+          ]
+        }
+      }
+    },
+    {
+      "name": "heart_handle_mug",
+      "category": "mugs",
+      "pro": true,
+      "object": "heart_handle_mug",
+      "plankAltitude": -21.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "heart_handle_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 298,
+              "height": 105
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "bottom",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "heart_mug",
+      "category": "mugs",
+      "pro": true,
+      "object": "heart_mug",
+      "plankAltitude": -20,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "heart_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "body",
+          "print",
+          "handle",
+          "inside"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 235,
+              "height": 71
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "body",
+          "print",
+          "inside"
+        ]
+      }
+    },
+    {
+      "name": "love_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "love_mug",
+      "plankAltitude": -16.3,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "love_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "heart_mug_body",
+          "heart_mug_print",
+          "heart_mug_inside",
+          "heart_mug_handle",
+          "mug_body",
+          "mug_print",
+          "mug_inside",
+          "mug_handle"
+        ],
+        "printNames": [
+          "heart_mug",
+          "mug"
+        ],
+        "printSettings": {
+          "heart_mug": {
+            "size": {
+              "width": 9.5,
+              "height": 3.5
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "heart_mug_print"
+            ]
+          },
+          "mug": {
+            "size": {
+              "width": 9.5,
+              "height": 3.5
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "mug_print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "heart_mug_body",
+          "heart_mug_print",
+          "heart_mug_inside",
+          "heart_mug_handle",
+          "mug_body",
+          "mug_print",
+          "mug_inside",
+          "mug_handle"
+        ]
+      }
+    },
+    {
+      "name": "magic_glitter_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "mug",
+      "plankAltitude": -20,
+      "defaultScene": "wooden",
+      "lights": null,
+      "frontLight": true,
+      "effects": [
+        "magicInk"
+      ],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom"
+        ],
+        "baseMaterial": "pure_glitter",
+        "meshMaterials": {
+          "decal": "decal"
+        },
+        "meshNames": [
+          "inside",
+          "print",
+          "decal",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "frontal",
+          "decal",
+          "bottom"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          },
+          "decal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "decal"
+            ],
+            "transparentBackground": true,
+            "disableMagicInk": true
+          },
+          "bottom": {
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "bottom"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "bottom",
+          "others"
+        ],
+        "meshMaterialSettings": {
+          "print": {
+            "metallicTextureUrl": "/textures/metallic/glitter.png"
+          }
+        },
+        "defaultColors": {
+          "handle": "#000000",
+          "inside": "#000000",
+          "print": "#000000",
+          "others": "#000000"
+        }
+      }
+    },
+    {
+      "name": "magic_mug",
+      "category": "mugs",
+      "pro": true,
+      "object": "mug",
+      "plankAltitude": -20,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [
+        "magicInk"
+      ],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom"
+        ],
+        "baseMaterial": "porcelain",
+        "meshMaterials": {
+          "decal": "decal"
+        },
+        "meshNames": [
+          "inside",
+          "print",
+          "decal",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "frontal",
+          "decal",
+          "bottom"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          },
+          "decal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "decal"
+            ],
+            "transparentBackground": true,
+            "disableMagicInk": true
+          },
+          "bottom": {
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "bottom"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "bottom",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "magic_mug_with_spoon",
+      "category": "mugs",
+      "pro": true,
+      "object": "magic_mug_with_spoon",
+      "plankAltitude": -22.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [
+        "magicInk"
+      ],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "magic_mug_with_spoon",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "spoon"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 295,
+              "height": 120
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "spoon",
+          "others"
+        ],
+        "defaultColors": {
+          "handle": "#040404",
+          "inside": "#040404",
+          "spoon": "#040404"
+        },
+        "camouflageMeshNames": [
+          "spoon"
+        ]
+      }
+    },
+    {
+      "name": "mason_jar_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "mason_jar_mug",
+      "plankAltitude": -29,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mason_jar_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "transparent_glass",
+        "meshMaterials": {
+          "cover": "aluminum",
+          "print": "decal",
+          "straw": "brighter_plastic"
+        },
+        "meshGroups": {
+          "mug": [
+            "handle",
+            "body",
+            "inside",
+            "bottom"
+          ]
+        },
+        "meshNames": [
+          "bottom",
+          "print",
+          "cover",
+          "body",
+          "inside",
+          "straw",
+          "handle"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 248,
+              "height": 130
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          }
+        },
+        "colorMeshNames": [
+          "bottom",
+          "cover",
+          "straw",
+          "handle",
+          "body"
+        ],
+        "modifiableMaterials": {
+          "mug": [
+            "transparent_glass",
+            "etched_glass"
+          ]
+        }
+      }
+    },
+    {
+      "name": "mini_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "mini_mug",
+      "plankAltitude": -16.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mini_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "bottom",
+          "inside",
+          "handle",
+          "print"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 220,
+              "height": 75
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "bottom",
+          "inside",
+          "print",
+          "handle"
+        ]
+      }
+    },
+    {
+      "name": "mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "mug",
+      "plankAltitude": -20.15,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom"
+        ],
+        "baseMaterial": "porcelain",
+        "meshMaterials": {
+          "decal": "decal"
+        },
+        "meshNames": [
+          "inside",
+          "print",
+          "decal",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "frontal",
+          "decal",
+          "bottom"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          },
+          "decal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "decal"
+            ],
+            "transparentBackground": true,
+            "disableMagicInk": true
+          },
+          "bottom": {
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "bottom"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "bottom",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "mug_360",
+      "category": "mugs",
+      "pro": false,
+      "object": "mug_360",
+      "plankAltitude": -20,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug_360",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "frontal",
+          "handle"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 258,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          },
+          "handle": {
+            "size": {
+              "width": 42,
+              "height": 101
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "handle"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "mug_with_glitter_strip",
+      "category": "mugs",
+      "pro": false,
+      "object": "mug_with_glitter_strip",
+      "plankAltitude": -20,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [
+        "glitter"
+      ],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug_with_glitter_strip",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "bottom",
+          "strip",
+          "strip_print",
+          "other"
+        ],
+        "meshMaterials": {
+          "strip": "glitter",
+          "strip_print": "translucent_decal"
+        },
+        "printNames": [
+          "frontal",
+          "handle",
+          "strip_print",
+          "glitter"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 258,
+              "height": 68
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          },
+          "strip_print": {
+            "size": {
+              "width": 258,
+              "height": 30
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "strip_print"
+            ],
+            "transparentBackground": true,
+            "opacity": 0.8
+          },
+          "handle": {
+            "size": {
+              "width": 42,
+              "height": 101
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "handle"
+            ]
+          },
+          "glitter": {
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "strip"
+            ],
+            "effects": [
+              "glitter"
+            ],
+            "hideEditor": true
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "bottom"
+        ]
+      }
+    },
+    {
+      "name": "mug_with_half_moon_handle",
+      "category": "mugs",
+      "pro": false,
+      "object": "mug_with_half_moon_handle",
+      "plankAltitude": 0,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug_with_half_moon_handle",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshMaterials": {},
+        "meshGroups": {},
+        "meshNames": [
+          "handle",
+          "print",
+          "inside",
+          "other"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 315,
+              "height": 137
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "print",
+          "inside",
+          "other"
+        ],
+        "defaultColors": {},
+        "camouflageMeshNames": [],
+        "hiddenMeshes": [],
+        "inverseVisibilityMeshNames": {},
+        "modifiableMaterials": {},
+        "scale": {
+          "x": 370,
+          "y": 370,
+          "z": 370
+        },
+        "position": {
+          "y": -19.2,
+          "x": 2
+        },
+        "rotation": {}
+      }
+    },
+    {
+      "name": "mug_with_handle_heart_pendant",
+      "category": "mugs",
+      "pro": true,
+      "object": "mug_with_handle_heart_pendant",
+      "plankAltitude": -17,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug_with_handle_heart_pendant",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 240,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "mug_with_print",
+      "category": "mugs",
+      "pro": true,
+      "object": "mug_with_print",
+      "plankAltitude": -20,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug_with_print",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "bottom",
+          "other",
+          "printA",
+          "printB"
+        ],
+        "meshMaterials": {
+          "printA": "paper",
+          "printB": "paper"
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 210,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print",
+              "printA",
+              "printB"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "mug_with_silicone_base",
+      "category": "mugs",
+      "pro": false,
+      "object": "mug_with_silicone_base",
+      "plankAltitude": -15,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug_with_silicone_base",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "silicone",
+        "meshMaterials": {
+          "print": "porcelain"
+        },
+        "meshNames": [
+          "body",
+          "print",
+          "handle",
+          "handle_detail"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 282,
+              "height": 110
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "body",
+          "print",
+          "handle",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "mug_with_spoon",
+      "category": "mugs",
+      "pro": true,
+      "object": "mug_with_spoon",
+      "plankAltitude": -22.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug_with_spoon",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "spoon",
+          "mug"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 210,
+              "height": 70
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "spoon",
+          "others"
+        ],
+        "defaultColors": {
+          "handle": "#040404",
+          "inside": "#040404",
+          "spoon": "#040404"
+        },
+        "camouflageMeshNames": [
+          "spoon"
+        ]
+      }
+    },
+    {
+      "name": "mug_with_stripe",
+      "category": "mugs",
+      "pro": false,
+      "object": "mug_with_stripe",
+      "plankAltitude": -20,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "mug_with_stripe",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 210,
+              "height": 80
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "other"
+        ],
+        "defaultColors": {
+          "handle": "#000000",
+          "inside": "#000000",
+          "other": "#000000"
+        }
+      }
+    },
+    {
+      "name": "polymer_chopp_mug",
+      "category": "chopp_mugs",
+      "pro": false,
+      "object": "polymer_chopp_mug",
+      "plankAltitude": 0,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "polymer_chopp_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshMaterials": {},
+        "meshGroups": {},
+        "meshNames": [
+          "other",
+          "print"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 350,
+              "height": 102
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "others",
+          "print"
+        ],
+        "defaultColors": {},
+        "camouflageMeshNames": [],
+        "hiddenMeshes": [],
+        "inverseVisibilityMeshNames": {},
+        "modifiableMaterials": {},
+        "scale": {
+          "x": 300,
+          "y": 300,
+          "z": 300
+        },
+        "position": {
+          "y": -20
+        },
+        "rotation": {
+          "y": 0.6
+        }
+      }
+    },
+    {
+      "name": "polymer_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "polymer_mug",
+      "plankAltitude": -20,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "polymer_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "brighter_plastic",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "bottom"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 210,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "others"
+        ],
+        "modifiableMaterials": {
+          "inside": [
+            "brighter_plastic",
+            "porcelain"
+          ],
+          "handle": [
+            "brighter_plastic",
+            "porcelain"
+          ],
+          "print": [
+            "brighter_plastic",
+            "porcelain"
+          ]
+        }
+      }
+    },
+    {
+      "name": "semithermal_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "semithermal_mug",
+      "plankAltitude": -21,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "semithermal_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "brighter_plastic",
+        "meshNames": [
+          "handle",
+          "print",
+          "caps"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 230,
+              "height": 115
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "print",
+          "others"
+        ],
+        "defaultColors": {
+          "others": "#222",
+          "handle": "#222"
+        },
+        "modifiableMaterials": {
+          "print": [
+            "brighter_plastic",
+            "stainless_steel"
+          ]
+        }
+      }
+    },
+    {
+      "name": "silicone_lid_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "silicone_lid_mug",
+      "plankAltitude": -24,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "silicone_lid_mug",
+        "hasMtl": false,
+        "seeBackFaces": true,
+        "baseMaterial": "silicone",
+        "meshMaterials": {
+          "print": "porcelain"
+        },
+        "meshGroups": {},
+        "meshNames": [
+          "print",
+          "bottom",
+          "cover",
+          "handle"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 329,
+              "height": 125
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "print",
+          "bottom",
+          "cover",
+          "handle"
+        ],
+        "defaultColors": {},
+        "camouflageMeshNames": [],
+        "hiddenMeshes": [],
+        "inverseVisibilityMeshNames": {},
+        "modifiableMaterials": {},
+        "scale": {
+          "x": 350,
+          "y": 350,
+          "z": 350
+        },
+        "position": {
+          "y": -24
+        },
+        "rotation": {
+          "y": 0.6
+        }
+      }
+    },
+    {
+      "name": "silicone_lid_mug_heart_handle",
+      "category": "mugs",
+      "pro": false,
+      "object": "silicone_lid_mug_heart_handle",
+      "plankAltitude": -29,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "silicone_lid_mug_heart_handle",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshMaterials": {
+          "cover": "silicone",
+          "bottom": "silicone"
+        },
+        "meshNames": [
+          "cover",
+          "print",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "print"
+        ],
+        "printSettings": {
+          "print": {
+            "size": {
+              "width": 304,
+              "height": 114
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "cover",
+          "handle",
+          "inside",
+          "print",
+          "bottom"
+        ],
+        "defaultColors": {
+          "cover": "#222222",
+          "bottom": "#222222"
+        }
+      }
+    },
+    {
+      "name": "slim_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "slim_mug",
+      "plankAltitude": -22,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "slim_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "reflective_plastic",
+        "meshMaterials": {
+          "print": "decal"
+        },
+        "meshNames": [
+          "print",
+          "body",
+          "handle",
+          "inside"
+        ],
+        "alphaIndex": {
+          "inside": 1,
+          "body": 2
+        },
+        "printNames": [
+          "frontal",
+          "gradient"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 199,
+              "height": 140
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          },
+          "gradient": {
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "body",
+              "handle",
+              "inside"
+            ],
+            "effects": [
+              "gradient"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "body",
+          "handle",
+          "inside"
+        ]
+      }
+    },
+    {
+      "name": "slim_mug_glass",
+      "category": "mugs",
+      "pro": false,
+      "object": "slim_mug",
+      "plankAltitude": -22,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "slim_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "transparent_glass",
+        "meshMaterials": {
+          "print": "decal"
+        },
+        "meshNames": [
+          "print",
+          "body",
+          "handle",
+          "inside"
+        ],
+        "alphaIndex": {
+          "inside": 1,
+          "body": 2
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 199,
+              "height": 140
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          },
+          "gradient": {
+            "size": {
+              "width": 1,
+              "height": 1
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "body",
+              "handle",
+              "inside"
+            ],
+            "effects": [
+              "gradient"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "body",
+          "handle",
+          "inside"
+        ],
+        "modifiableMaterials": {
+          "body": [
+            "transparent_glass",
+            "etched_glass"
+          ],
+          "handle": [
+            "transparent_glass",
+            "etched_glass"
+          ],
+          "inside": [
+            "transparent_glass",
+            "etched_glass"
+          ]
+        }
+      }
+    },
+    {
+      "name": "small_chopp_mug",
+      "category": "chopp_mugs",
+      "pro": false,
+      "object": "small_chopp_mug",
+      "plankAltitude": -24,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "small_chopp_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "transparent_glass",
+        "meshMaterials": {
+          "print": "decal"
+        },
+        "meshNames": [
+          "print",
+          "handle",
+          "inside",
+          "top",
+          "mug",
+          "bottom"
+        ],
+        "alphaIndex": {
+          "handle": 4,
+          "inside": 2,
+          "top": 3,
+          "mug": 4
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 250,
+              "height": 90
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          }
+        },
+        "colorMeshNames": [
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "small_chopp_mug_etched",
+      "category": "chopp_mugs",
+      "pro": false,
+      "object": "small_chopp_mug",
+      "plankAltitude": -24,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "small_chopp_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "etched_glass",
+        "meshMaterials": {
+          "print": "decal"
+        },
+        "meshNames": [
+          "print",
+          "handle",
+          "inside",
+          "top",
+          "mug",
+          "bottom"
+        ],
+        "alphaIndex": {
+          "handle": 4,
+          "inside": 2,
+          "top": 3,
+          "mug": 4
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 250,
+              "height": 90
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "transparentBackground": true
+          }
+        },
+        "colorMeshNames": [
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "soccer_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "soccer_mug",
+      "plankAltitude": -19,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "soccer_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "print",
+          "mug",
+          "ball",
+          "ball_black"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 170,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "print",
+          "mug",
+          "ball",
+          "ball_black"
+        ],
+        "defaultColors": {
+          "ball_black": "#000000"
+        }
+      }
+    },
+    {
+      "name": "straight_mug_with_spoon",
+      "category": "mugs",
+      "pro": true,
+      "object": "straight_mug_with_spoon",
+      "plankAltitude": -22.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "straight_mug_with_spoon",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "spoon",
+          "mug"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 210,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "spoon",
+          "others"
+        ],
+        "defaultColors": {
+          "handle": "#040404",
+          "inside": "#040404",
+          "spoon": "#040404"
+        },
+        "camouflageMeshNames": [
+          "spoon"
+        ]
+      }
+    },
+    {
+      "name": "three_chrome_mugs",
+      "category": "mugs",
+      "pro": true,
+      "object": "three_mugs",
+      "plankAltitude": -20.15,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "three_mugs",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom",
+          "bottom.001",
+          "bottom.002"
+        ],
+        "baseMaterial": "chrome",
+        "meshNames": [
+          "inside",
+          "inside.001",
+          "inside.002",
+          "print",
+          "print.001",
+          "print.002",
+          "handle",
+          "handle.001",
+          "handle.002",
+          "bottom",
+          "bottom.001",
+          "bottom.002",
+          "other",
+          "other.001",
+          "other.002"
+        ],
+        "meshGroups": {
+          "insides": [
+            "inside",
+            "inside.001",
+            "inside.002"
+          ],
+          "prints": [
+            "print",
+            "print.001",
+            "print.002"
+          ],
+          "handles": [
+            "handle",
+            "handle.001",
+            "handle.002"
+          ]
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "prints"
+            ],
+            "enableColorBlend": true
+          }
+        },
+        "colorMeshNames": [
+          "handles",
+          "insides",
+          "prints",
+          "others"
+        ],
+        "meshMaterials": {
+          "inside": "porcelain",
+          "inside.001": "porcelain",
+          "inside.002": "porcelain"
+        }
+      }
+    },
+    {
+      "name": "three_magic_mugs",
+      "category": "mugs",
+      "pro": true,
+      "object": "three_mugs",
+      "plankAltitude": -20.15,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [
+        "magicInk"
+      ],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "three_mugs",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom",
+          "bottom.001",
+          "bottom.002"
+        ],
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "inside.001",
+          "inside.002",
+          "print",
+          "print.001",
+          "print.002",
+          "handle",
+          "handle.001",
+          "handle.002",
+          "bottom",
+          "bottom.001",
+          "bottom.002",
+          "other",
+          "other.001",
+          "other.002"
+        ],
+        "meshGroups": {
+          "insides": [
+            "inside",
+            "inside.001",
+            "inside.002"
+          ],
+          "prints": [
+            "print",
+            "print.001",
+            "print.002"
+          ],
+          "handles": [
+            "handle",
+            "handle.001",
+            "handle.002"
+          ]
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "prints"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handles",
+          "insides",
+          "prints",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "three_mugs",
+      "category": "mugs",
+      "pro": true,
+      "object": "three_mugs",
+      "plankAltitude": -20.15,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "three_mugs",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom",
+          "bottom.001",
+          "bottom.002"
+        ],
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "inside.001",
+          "inside.002",
+          "print",
+          "print.001",
+          "print.002",
+          "handle",
+          "handle.001",
+          "handle.002",
+          "bottom",
+          "bottom.001",
+          "bottom.002",
+          "other",
+          "other.001",
+          "other.002"
+        ],
+        "meshGroups": {
+          "insides": [
+            "inside",
+            "inside.001",
+            "inside.002"
+          ],
+          "prints": [
+            "print",
+            "print.001",
+            "print.002"
+          ],
+          "handles": [
+            "handle",
+            "handle.001",
+            "handle.002"
+          ]
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "prints"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handles",
+          "insides",
+          "prints",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "three_mugs_with_print",
+      "category": "mugs",
+      "pro": true,
+      "object": "three_mugs_with_print",
+      "plankAltitude": -10,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "three_mugs_with_print",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom",
+          "bottom.001",
+          "bottom.002"
+        ],
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "inside.001",
+          "inside.002",
+          "print",
+          "print.001",
+          "print.002",
+          "handle",
+          "handle.001",
+          "handle.002",
+          "bottom",
+          "bottom.001",
+          "bottom.002",
+          "other",
+          "other.001",
+          "other.002",
+          "printA",
+          "printB"
+        ],
+        "meshGroups": {
+          "insides": [
+            "inside",
+            "inside.001",
+            "inside.002"
+          ],
+          "prints": [
+            "print",
+            "print.001",
+            "print.002"
+          ],
+          "paperPrints": [
+            "printA",
+            "printB"
+          ],
+          "handles": [
+            "handle",
+            "handle.001",
+            "handle.002"
+          ]
+        },
+        "meshMaterials": {
+          "printA": "paper",
+          "printB": "paper"
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 210,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "prints",
+              "printA",
+              "printB"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handles",
+          "insides",
+          "prints",
+          "paperPrints",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "three_mugs_with_print_360",
+      "category": "mugs",
+      "pro": true,
+      "object": "three_mugs_with_print_360",
+      "plankAltitude": -10,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "three_mugs_with_print_360",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom",
+          "bottom.001",
+          "bottom.002"
+        ],
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "inside.001",
+          "inside.002",
+          "print",
+          "print.001",
+          "print.002",
+          "handle",
+          "handle.001",
+          "handle.002",
+          "bottom",
+          "bottom.001",
+          "bottom.002",
+          "other",
+          "other.001",
+          "other.002",
+          "printA",
+          "printB"
+        ],
+        "meshGroups": {
+          "insides": [
+            "inside",
+            "inside.001",
+            "inside.002"
+          ],
+          "prints": [
+            "print",
+            "print.001",
+            "print.002"
+          ],
+          "paperPrints": [
+            "printA",
+            "printB"
+          ],
+          "handles": [
+            "handle",
+            "handle.001",
+            "handle.002"
+          ]
+        },
+        "meshMaterials": {
+          "printA": "better_decal",
+          "printB": "better_decal"
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "prints"
+            ],
+            "linkedPrints": [
+              "paper"
+            ]
+          },
+          "paper": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "printA",
+              "printB"
+            ],
+            "transparentWhenNotEmpty": true
+          }
+        },
+        "colorMeshNames": [
+          "handles",
+          "insides",
+          "prints",
+          "paperPrints",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "two_chrome_mugs",
+      "category": "mugs",
+      "pro": true,
+      "object": "two_mugs",
+      "plankAltitude": -20.15,
+      "defaultScene": "lebombo",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "two_mugs",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom",
+          "bottom.001"
+        ],
+        "baseMaterial": "chrome",
+        "meshNames": [
+          "inside",
+          "inside.001",
+          "print",
+          "print.001",
+          "handle",
+          "handle.001",
+          "bottom",
+          "bottom.001",
+          "other",
+          "other.001"
+        ],
+        "meshGroups": {
+          "insides": [
+            "inside",
+            "inside.001"
+          ],
+          "prints": [
+            "print",
+            "print.001"
+          ],
+          "handles": [
+            "handle",
+            "handle.001"
+          ]
+        },
+        "transformGroups": {
+          "group1": {
+            "meshes": [
+              "inside",
+              "print",
+              "handle",
+              "bottom",
+              "other"
+            ],
+            "center": "pivot"
+          },
+          "group2": {
+            "meshes": [
+              "inside.001",
+              "print.001",
+              "handle.001",
+              "bottom.001",
+              "other.001"
+            ],
+            "center": "pivot.001"
+          }
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "prints"
+            ],
+            "enableColorBlend": true
+          }
+        },
+        "colorMeshNames": [
+          "handles",
+          "insides",
+          "prints",
+          "others"
+        ],
+        "meshMaterials": {
+          "inside": "porcelain",
+          "inside.001": "porcelain"
+        }
+      }
+    },
+    {
+      "name": "two_magic_mugs",
+      "category": "mugs",
+      "pro": true,
+      "object": "two_mugs",
+      "plankAltitude": -20.15,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [
+        "magicInk"
+      ],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "two_mugs",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom",
+          "bottom.001"
+        ],
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "inside.001",
+          "print",
+          "print.001",
+          "handle",
+          "handle.001",
+          "bottom",
+          "bottom.001",
+          "other",
+          "other.001"
+        ],
+        "meshGroups": {
+          "insides": [
+            "inside",
+            "inside.001"
+          ],
+          "prints": [
+            "print",
+            "print.001"
+          ],
+          "handles": [
+            "handle",
+            "handle.001"
+          ]
+        },
+        "transformGroups": {
+          "group1": {
+            "meshes": [
+              "inside",
+              "print",
+              "handle",
+              "bottom",
+              "other"
+            ],
+            "center": "pivot"
+          },
+          "group2": {
+            "meshes": [
+              "inside.001",
+              "print.001",
+              "handle.001",
+              "bottom.001",
+              "other.001"
+            ],
+            "center": "pivot.001"
+          }
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "prints"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handles",
+          "insides",
+          "prints",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "two_mugs",
+      "category": "mugs",
+      "pro": true,
+      "object": "two_mugs",
+      "plankAltitude": -20.15,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "two_mugs",
+        "hasMtl": false,
+        "seeBackFaces": [
+          "bottom",
+          "bottom.001"
+        ],
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "inside.001",
+          "print",
+          "print.001",
+          "handle",
+          "handle.001",
+          "bottom",
+          "bottom.001",
+          "other",
+          "other.001"
+        ],
+        "meshGroups": {
+          "insides": [
+            "inside",
+            "inside.001"
+          ],
+          "prints": [
+            "print",
+            "print.001"
+          ],
+          "handles": [
+            "handle",
+            "handle.001"
+          ]
+        },
+        "transformGroups": {
+          "group1": {
+            "meshes": [
+              "inside",
+              "print",
+              "handle",
+              "bottom",
+              "other"
+            ],
+            "center": "pivot"
+          },
+          "group2": {
+            "meshes": [
+              "inside.001",
+              "print.001",
+              "handle.001",
+              "bottom.001",
+              "other.001"
+            ],
+            "center": "pivot.001"
+          }
+        },
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "prints"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handles",
+          "insides",
+          "prints",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "updated_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "updated_mug",
+      "plankAltitude": -19.5,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "updated_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshNames": [
+          "inside",
+          "print",
+          "handle",
+          "bottom",
+          "other"
+        ],
+        "printNames": [
+          "frontal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 258,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ]
+          }
+        },
+        "colorMeshNames": [
+          "handle",
+          "inside",
+          "print",
+          "others"
+        ]
+      }
+    },
+    {
+      "name": "white_aluminum_mug",
+      "category": "mugs",
+      "pro": false,
+      "object": "aluminum_mug",
+      "plankAltitude": -31,
+      "defaultScene": "photostudio",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "type": "aluminum_mug",
+        "hasMtl": false,
+        "seeBackFaces": false,
+        "baseMaterial": "porcelain",
+        "meshMaterials": {
+          "decal": "decal"
+        },
+        "meshNames": [
+          "mug",
+          "print",
+          "decal"
+        ],
+        "printNames": [
+          "frontal",
+          "decal"
+        ],
+        "printSettings": {
+          "frontal": {
+            "size": {
+              "width": 204,
+              "height": 76
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "print"
+            ],
+            "enableColorBlend": true
+          },
+          "decal": {
+            "size": {
+              "width": 251,
+              "height": 95
+            },
+            "stretch": {
+              "x": true,
+              "y": true
+            },
+            "meshes": [
+              "decal"
+            ],
+            "transparentBackground": true,
+            "disableMagicInk": true
+          }
+        },
+        "colorMeshNames": [
+          "mug",
+          "print"
+        ]
+      }
+    },
+    {
+      "name": "azulejo-redondo",
+      "category": "tiles-round",
+      "pro": false,
+      "object": "azulejo-redondo",
+      "plankAltitude": -1.5,
+      "defaultScene": "studio-light",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "baseMaterial": "ceramic",
+        "meshMaterials": {
+          "print": "decal"
+        }
+      },
+      "meshNames": [
+        "print",
+        "body",
+        "base"
+      ],
+      "printNames": [
+        "frontal"
+      ],
+      "printSettings": {
+        "frontal": {
+          "size": {
+            "width": 200,
+            "height": 200
+          },
+          "stretch": {
+            "x": true,
+            "y": true
+          },
+          "meshes": [
+            "print"
+          ]
+        }
+      },
+      "colorMeshNames": [
+        "body",
+        "base"
+      ],
+      "defaultColors": {
+        "body": "#ffffff",
+        "base": "#f5f5f5"
+      },
+      "onlyPro": false
+    },
+    {
+      "name": "azulejo-retangular-vertical-com-suporte",
+      "category": "tiles-rectangular",
+      "pro": false,
+      "object": "azulejo-retangular-vertical-com-suporte",
+      "plankAltitude": -2.0,
+      "defaultScene": "studio-light",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "meshMaterials": {},
+      "meshNames": [
+        "print",
+        "support",
+        "base",
+        "body"
+      ],
+      "printNames": [
+        "frontal"
+      ],
+      "printSettings": {
+        "frontal": {
+          "size": {
+            "width": 300,
+            "height": 400
+          },
+          "stretch": {
+            "x": true,
+            "y": true
+          },
+          "meshes": [
+            "print"
+          ]
+        }
+      },
+      "colorMeshNames": [
+        "body",
+        "base",
+        "support"
+      ],
+      "defaultColors": {
+        "body": "#ffffff",
+        "base": "#f5f5f5",
+        "support": "#cccccc"
+      },
+      "onlyPro": false
+    },
+    {
+      "name": "camiseta-uniforme-exclusiva",
+      "category": "apparel",
+      "pro": true,
+      "object": "camiseta-uniforme-exclusiva",
+      "plankAltitude": -5,
+      "defaultScene": "studio-light",
+      "lights": null,
+      "frontLight": null,
+      "effects": [
+        "magicInk"
+      ],
+      "useLegacyMode": false,
+      "meshMaterials": {
+        "print_front": "decal",
+        "print_back": "decal"
+      },
+      "meshNames": [
+        "print_front",
+        "print_back",
+        "body",
+        "sleeves",
+        "collar"
+      ],
+      "printNames": [
+        "frontal",
+        "costas"
+      ],
+      "printSettings": {
+        "frontal": {
+          "size": {
+            "width": 300,
+            "height": 400
+          },
+          "stretch": {
+            "x": true,
+            "y": true
+          },
+          "meshes": [
+            "print_front"
+          ],
+          "transparentBackground": true
+        },
+        "costas": {
+          "size": {
+            "width": 300,
+            "height": 400
+          },
+          "stretch": {
+            "x": true,
+            "y": true
+          },
+          "meshes": [
+            "print_back"
+          ],
+          "transparentBackground": true
+        }
+      },
+      "colorMeshNames": [
+        "body",
+        "sleeves",
+        "collar"
+      ],
+      "defaultColors": {
+        "body": "#ffffff",
+        "sleeves": "#ffffff",
+        "collar": "#000000"
+      },
+      "onlyPro": true
+    },
+    {
+      "name": "azulejo-redondo",
+      "category": "tiles-round",
+      "pro": false,
+      "object": "azulejo-redondo",
+      "plankAltitude": -1.5,
+      "defaultScene": "studio-light",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "useLegacyMode": false,
+      "settings": {
+        "baseMaterial": "ceramic"
+      },
+      "meshMaterials": {
+        "print": "decal"
+      },
+      "meshNames": [
+        "print",
+        "body",
+        "base"
+      ],
+      "printSettings": {
+        "frontal": {
+          "size": {
+            "width": 200,
+            "height": 200
+          },
+          "stretch": {
+            "x": true,
+            "y": true
+          },
+          "meshes": [
+            "print"
+          ]
+        }
+      },
+      "defaultColors": {
+        "body": "#ffffff",
+        "base": "#f5f5f5"
+      },
+      "onlyPro": false
+    },
+    {
+      "name": "azulejo-retangular-vertical-com-suporte",
+      "category": "tiles-rectangular",
+      "pro": false,
+      "object": "azulejo-retangular-vertical-com-suporte",
+      "plankAltitude": -2.0,
+      "defaultScene": "studio-light",
+      "lights": null,
+      "frontLight": null,
+      "effects": [],
+      "settings": {
+        "baseMaterial": "ceramic"
+      },
+      "meshMaterials": {
+        "print": "decal",
+        "support": "porcelain"
+      },
+      "meshNames": [
+        "print",
+        "support",
+        "base",
+        "body"
+      ],
+      "printSettings": {
+        "frontal": {
+          "size": {
+            "width": 300,
+            "height": 400
+          },
+          "stretch": {
+            "x": true,
+            "y": true
+          },
+          "meshes": [
+            "print"
+          ]
+        }
+      },
+      "defaultColors": {
+        "body": "#ffffff",
+        "base": "#f5f5f5",
+        "support": "#cccccc"
+      },
+      "onlyPro": false
+    },
+    {
+      "name": "camiseta-uniforme-exclusiva",
+      "category": "apparel",
+      "pro": true,
+      "object": "camiseta-uniforme-exclusiva",
+      "plankAltitude": -5,
+      "defaultScene": "studio-light",
+      "lights": null,
+      "frontLight": null,
+      "effects": [
+        "magicInk"
+      ],
+      "meshMaterials": {
+        "print_front": "decal",
+        "print_back": "decal"
+      },
+      "meshNames": [
+        "print_front",
+        "print_back",
+        "body",
+        "sleeves",
+        "collar"
+      ],
+      "printSettings": {
+        "frontal": {
+          "size": {
+            "width": 300,
+            "height": 400
+          },
+          "stretch": {
+            "x": true,
+            "y": true
+          },
+          "meshes": [
+            "print_front"
+          ]
+        },
+        "costas": {
+          "size": {
+            "width": 300,
+            "height": 400
+          },
+          "stretch": {
+            "x": true,
+            "y": true
+          },
+          "meshes": [
+            "print_back"
+          ],
+          "transparentBackground": true
+        }
+      },
+      "defaultColors": {
+        "body": "#ffffff",
+        "sleeves": "#ffffff",
+        "collar": "#000000"
+      },
+      "onlyPro": true
+    }
+  ]
+}
