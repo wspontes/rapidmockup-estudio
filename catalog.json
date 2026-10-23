@@ -4628,7 +4628,7 @@
       "category": "tiles-round",
       "pro": false,
       "object": "azulejo-redondo",
-      "plankAltitude": -1.5,
+      "plankAltitude": -0.5,
       "defaultScene": "photostudio",
       "lights": null,
       "frontLight": null,
@@ -4636,16 +4636,20 @@
       "useLegacyMode": false,
       "settings": {
         "type": "azulejo-redondo",
-        "hasMtl": false,
+        "hasMtl": true,
         "seeBackFaces": false,
         "baseMaterial": "ceramic",
         "meshMaterials": {
-          "print": "decal"
+          "print": "decal",
+          "body": "ceramic",
+          "base": "ceramic",
+          "side": "ceramic"
         },
         "meshNames": [
           "print",
           "body",
-          "base"
+          "base",
+          "side"
         ],
         "printNames": [
           "frontal"
@@ -4653,8 +4657,8 @@
         "printSettings": {
           "frontal": {
             "size": {
-              "width": 200,
-              "height": 200
+              "width": 2000,
+              "height": 2000
             },
             "stretch": {
               "x": true,
@@ -4667,11 +4671,28 @@
         },
         "colorMeshNames": [
           "body",
-          "base"
+          "base",
+          "side"
         ],
         "defaultColors": {
           "body": "#ffffff",
-          "base": "#f5f5f5"
+          "base": "#f5f5f5",
+          "side": "#f5f5f5"
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "position": {
+          "x": 0,
+          "y": -0.25,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
         }
       }
     },
@@ -4680,7 +4701,7 @@
       "category": "tiles-rectangular",
       "pro": false,
       "object": "azulejo-retangular-vertical-com-suporte",
-      "plankAltitude": -2.0,
+      "plankAltitude": -1,
       "defaultScene": "photostudio",
       "lights": null,
       "frontLight": null,
@@ -4688,18 +4709,22 @@
       "useLegacyMode": false,
       "settings": {
         "type": "azulejo-retangular-vertical-com-suporte",
-        "hasMtl": false,
+        "hasMtl": true,
         "seeBackFaces": false,
         "baseMaterial": "ceramic",
         "meshMaterials": {
           "print": "decal",
+          "body": "ceramic",
+          "base": "ceramic",
+          "side": "ceramic",
           "support": "porcelain"
         },
         "meshNames": [
           "print",
-          "support",
+          "body",
           "base",
-          "body"
+          "side",
+          "support"
         ],
         "printNames": [
           "frontal"
@@ -4707,8 +4732,8 @@
         "printSettings": {
           "frontal": {
             "size": {
-              "width": 300,
-              "height": 400
+              "width": 3000,
+              "height": 4000
             },
             "stretch": {
               "x": true,
@@ -4722,12 +4747,29 @@
         "colorMeshNames": [
           "body",
           "base",
+          "side",
           "support"
         ],
         "defaultColors": {
           "body": "#ffffff",
           "base": "#f5f5f5",
+          "side": "#f5f5f5",
           "support": "#cccccc"
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "position": {
+          "x": 0,
+          "y": -1,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
         }
       }
     },
@@ -4736,7 +4778,7 @@
       "category": "apparel",
       "pro": true,
       "object": "camiseta-uniforme-exclusiva",
-      "plankAltitude": -5,
+      "plankAltitude": -30,
       "defaultScene": "photostudio",
       "lights": null,
       "frontLight": null,
@@ -4746,19 +4788,33 @@
       "useLegacyMode": false,
       "settings": {
         "type": "camiseta-uniforme-exclusiva",
-        "hasMtl": false,
+        "hasMtl": true,
         "seeBackFaces": false,
         "baseMaterial": "cloth",
         "meshMaterials": {
           "print_front": "decal",
-          "print_back": "decal"
+          "print_back": "decal",
+          "body_front": "cloth",
+          "body_back": "cloth",
+          "sleeve_left": "cloth",
+          "sleeve_right": "cloth",
+          "collar": "collar"
         },
         "meshNames": [
           "print_front",
           "print_back",
-          "body",
-          "sleeves",
-          "collar"
+          "body_front",
+          "body_back",
+          "sleeve_left",
+          "sleeve_right",
+          "collar",
+          "side_left",
+          "side_right",
+          "hem",
+          "sleeve_left_conn",
+          "sleeve_right_conn",
+          "collar_sides",
+          "collar_top"
         ],
         "printNames": [
           "frontal",
@@ -4767,8 +4823,8 @@
         "printSettings": {
           "frontal": {
             "size": {
-              "width": 300,
-              "height": 400
+              "width": 3000,
+              "height": 4000
             },
             "stretch": {
               "x": true,
@@ -4781,8 +4837,8 @@
           },
           "costas": {
             "size": {
-              "width": 300,
-              "height": 400
+              "width": 3000,
+              "height": 4000
             },
             "stretch": {
               "x": true,
@@ -4795,14 +4851,47 @@
           }
         },
         "colorMeshNames": [
-          "body",
-          "sleeves",
-          "collar"
+          "body_front",
+          "body_back",
+          "sleeve_left",
+          "sleeve_right",
+          "collar",
+          "side_left",
+          "side_right",
+          "hem",
+          "sleeve_left_conn",
+          "sleeve_right_conn",
+          "collar_sides",
+          "collar_top"
         ],
         "defaultColors": {
-          "body": "#ffffff",
-          "sleeves": "#ffffff",
-          "collar": "#000000"
+          "body_front": "#ffffff",
+          "body_back": "#ffffff",
+          "sleeve_left": "#ffffff",
+          "sleeve_right": "#ffffff",
+          "collar": "#000000",
+          "side_left": "#ffffff",
+          "side_right": "#ffffff",
+          "hem": "#ffffff",
+          "sleeve_left_conn": "#ffffff",
+          "sleeve_right_conn": "#ffffff",
+          "collar_sides": "#000000",
+          "collar_top": "#000000"
+        },
+        "scale": {
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
         }
       }
     }

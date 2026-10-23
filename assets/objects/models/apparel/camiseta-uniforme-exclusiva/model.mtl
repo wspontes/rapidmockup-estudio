@@ -1,1 +1,24 @@
-# materiais definidos pelo bundle REA (catalog.json)
+newmtl cloth_mtl
+Ka 0.950 0.950 0.950
+Kd 0.950 0.950 0.950
+Ks 0.020 0.020 0.020
+Ns 10.0
+d 1.0
+illum 2
+
+newmtl collar_mtl
+Ka 0.900 0.900 0.900
+Kd 0.900 0.900 0.900
+Ks 0.050 0.050 0.050
+Ns 15.0
+d 1.0
+illum 2
+
+newmtl print_mtl
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+Ns 1.0
+d 1.0
+illum 1
+map_Kd print_texture.png

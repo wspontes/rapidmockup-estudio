@@ -1,1 +1,16 @@
-# materiais definidos pelo bundle REA (catalog.json)
+newmtl ceramic_mtl
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.100 0.100 0.100
+Ns 20.0
+d 1.0
+illum 2
+
+newmtl print_mtl
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+Ns 1.0
+d 1.0
+illum 1
+map_Kd print_texture.png
