@@ -4673,39 +4673,7 @@
           "body": "#ffffff",
           "base": "#f5f5f5"
         }
-      },
-      "meshNames": [
-        "print",
-        "body",
-        "base"
-      ],
-      "printNames": [
-        "frontal"
-      ],
-      "printSettings": {
-        "frontal": {
-          "size": {
-            "width": 200,
-            "height": 200
-          },
-          "stretch": {
-            "x": true,
-            "y": true
-          },
-          "meshes": [
-            "print"
-          ]
-        }
-      },
-      "colorMeshNames": [
-        "body",
-        "base"
-      ],
-      "defaultColors": {
-        "body": "#ffffff",
-        "base": "#f5f5f5"
-      },
-      "onlyPro": false
+      }
     },
     {
       "name": "azulejo-retangular-vertical-com-suporte",
@@ -4718,42 +4686,6 @@
       "frontLight": null,
       "effects": [],
       "useLegacyMode": false,
-      "meshMaterials": {},
-      "meshNames": [
-        "print",
-        "support",
-        "base",
-        "body"
-      ],
-      "printNames": [
-        "frontal"
-      ],
-      "printSettings": {
-        "frontal": {
-          "size": {
-            "width": 300,
-            "height": 400
-          },
-          "stretch": {
-            "x": true,
-            "y": true
-          },
-          "meshes": [
-            "print"
-          ]
-        }
-      },
-      "colorMeshNames": [
-        "body",
-        "base",
-        "support"
-      ],
-      "defaultColors": {
-        "body": "#ffffff",
-        "base": "#f5f5f5",
-        "support": "#cccccc"
-      },
-      "onlyPro": false,
       "settings": {
         "type": "azulejo-retangular-vertical-com-suporte",
         "hasMtl": false,
@@ -4812,62 +4744,6 @@
         "magicInk"
       ],
       "useLegacyMode": false,
-      "meshMaterials": {
-        "print_front": "decal",
-        "print_back": "decal"
-      },
-      "meshNames": [
-        "print_front",
-        "print_back",
-        "body",
-        "sleeves",
-        "collar"
-      ],
-      "printNames": [
-        "frontal",
-        "costas"
-      ],
-      "printSettings": {
-        "frontal": {
-          "size": {
-            "width": 300,
-            "height": 400
-          },
-          "stretch": {
-            "x": true,
-            "y": true
-          },
-          "meshes": [
-            "print_front"
-          ],
-          "transparentBackground": true
-        },
-        "costas": {
-          "size": {
-            "width": 300,
-            "height": 400
-          },
-          "stretch": {
-            "x": true,
-            "y": true
-          },
-          "meshes": [
-            "print_back"
-          ],
-          "transparentBackground": true
-        }
-      },
-      "colorMeshNames": [
-        "body",
-        "sleeves",
-        "collar"
-      ],
-      "defaultColors": {
-        "body": "#ffffff",
-        "sleeves": "#ffffff",
-        "collar": "#000000"
-      },
-      "onlyPro": true,
       "settings": {
         "type": "camiseta-uniforme-exclusiva",
         "hasMtl": false,
